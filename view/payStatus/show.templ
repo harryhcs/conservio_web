@@ -1,0 +1,81 @@
+package paymentStatus
+
+import (
+    "github.com/harryhcs/conservio_web/view/layout"
+    "github.com/harryhcs/conservio_web/model"
+    "fmt"
+)
+
+templ Show(payment model.PaymentStatus) {
+    @layout.Base() {
+        <div
+              class={
+                "mt-10 flex flex-row gap-2 container max-w-3xl m-auto mx-auto p-4 sm:flex-col sm:w-full sm:p-2 xs:flex-col xs:w-full xs:p-2 "
+              }
+          >
+            <div class={"flex flex-col justify-between gap-4 xs:w-full"}>
+              <div class={"text-center"}>
+                <h2 class={"text-center"}>
+                  This booking has been paid in full and confirmed
+                </h2>
+                <p>Enjoy your stay at {payment.PropertyName}.</p>
+              </div>
+              <div
+                  class={
+                    "m-auto p-4 border-2 border-[#C3C8BD] rounded-xl bg-[#F0F2EF] max-w-[375px] my-8 xs:min-w-fit xs:m-2 xs:p-2"
+              }
+            >
+              <h3 class={"font-bold text-lg text-[#484D42] mb-2 text-left"}>
+                {payment.PropertyName}
+              </h3>
+              <div class={"flex gap-2 items-center text-sm"}>
+                <div class={"flex items-center gap-2"}>
+                  // <BiCalendarCheck size={24} />
+                  <strong>
+                    {payment.CheckInDate}
+                  </strong>
+                  -
+                  <strong>
+                    {" "}
+                    {payment.CheckOutDate}
+                  </strong>
+                </div>
+              </div>
+              <div class={"flex gap-2 items-center text-sm"}>
+                <div class={"flex gap-5 items-center"}>
+                  <div class={"flex items-center gap-2"}>
+                    // <GroupIcon size={24} />
+                    <strong>{payment.StaySummary}</strong>
+                  </div>
+                </div>
+              </div>
+              <hr class={"h-0.5 my-4 bg-[#C3C8BD]"} />
+              <div class={"flex gap-2 items-center text-sm"}>
+                <div class={"flex gap-5 items-center"}>
+                  <div class={"flex items-center gap-2"}>
+                    <span>Booking reference: </span>
+                    <strong>{payment.BookingReference}</strong>
+                  </div>
+                </div>
+              </div>
+              <div class={"flex gap-2 items-center text-sm"}>
+                <div class={"flex gap-5 items-center"}>
+                  <div class={"flex items-center gap-2"}>
+                    <span>Booking status: </span>
+                    <strong>Paid in full</strong>
+                  </div>
+                </div>
+              </div>
+              <div class={"flex gap-2 items-center text-sm"}>
+                <div class={"flex gap-5 items-center"}>
+                  <div class={"flex items-center gap-2"}>
+                    <span>Total: </span>
+                    <strong>R  {fmt.Sprintf ("%d", payment.Amount)} </strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    }
+}

@@ -1,0 +1,236 @@
+/* barlow-latin-100-italic */
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 100;
+    src: url(@fontsource/barlow/files/barlow-latin-100-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-100-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* barlow-latin-200-italic */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 200;
+    src: url(@fontsource/barlow/files/barlow-latin-200-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-200-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* barlow-latin-300-italic */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 300;
+    src: url(@fontsource/barlow/files/barlow-latin-300-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-300-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* barlow-latin-400-italic */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 400;
+    src: url(@fontsource/barlow/files/barlow-latin-400-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-400-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* barlow-latin-500-italic */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 500;
+    src: url(@fontsource/barlow/files/barlow-latin-500-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-500-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* barlow-latin-600-italic */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 600;
+    src: url(@fontsource/barlow/files/barlow-latin-600-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-600-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* barlow-latin-700-italic */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 700;
+    src: url(@fontsource/barlow/files/barlow-latin-700-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-700-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+  
+  /* barlow-latin-800-italic */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 800;
+    src: url(@fontsource/barlow/files/barlow-latin-800-italic.woff2) format('woff2'), url(@fontsource/barlow/files/barlow-latin-800-italic.woff) format('woff');
+    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+  }
+
+*, :after, :before {
+  border: 0 solid #e0e0e0;
+}
+
+:root {
+  --font-serif: "Barlow";
+  --font-display: "Averia Serif Libre";
+  --radii-sm: 6px;
+  --radii-md: 8px;
+  --radii-lg: 10px;
+  --radii-xlg: 30px;
+  --radii-full: 9999px;
+  --max-content-width: 1600px;
+  --max-nav-width: 1741px;
+  --color-black: #222;
+  --color-dark-gray: #484D42;
+  --global-color-text: #484d42;
+  --color-gray: #707780;
+  --color-red: #ba3834;
+  --color-green: #507716;
+  --color-green-shade: #f0f2ef;
+  --color-orange: #d3582d;
+  --color-white: #fff;
+  --color-snow: #f9f9f9;
+  --color-light-gray: #faf9f5;
+  --color-text: #484d42;
+  --color-gray-border: #ede8e9;
+  --color-gray-label: #c3c8bd;
+  --global-color-links: #507716;
+  --red-overlay: rgba(70, 14, 12, 0.5);
+  --black-overlay: rgba(0, 0, 0, 0.4);
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  color: var(--color-text);
+  font-weight: 400;
+  line-height: 1.45;
+  overscroll-behavior-x: contain;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.e-widget-wrapper {
+  margin: 0 !important;
+  max-width: 800px !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+h1 {
+  font: normal normal bold 34px/48px Barlow;
+  letter-spacing: -0.68px;
+  color: #484D42;
+  font-weight: 700;
+
+  @media (max-width: 60em) {
+    font: normal normal bold 24px/36px Barlow;
+    letter-spacing: 0;
+  }
+}
+
+h2 {
+  font: normal normal bold 34px/40px 'Barlow', sans-serif;
+  letter-spacing: -0.68px;
+  color: #484D42;
+
+  @media (max-width: 60em) {
+    font: normal normal bold 24px/36px Barlow;
+    letter-spacing: 0;
+  }
+}
+
+h3 {
+  font: normal normal normal 24px/37px Barlow;
+}
+
+.section_title {
+  font: normal normal bold 34px/58px Barlow;
+}
+
+
+p {
+  margin: 0;
+  font: normal normal normal 16px/26px Barlow;
+  letter-spacing: 0;
+  color: #484D42;
+}
+
+strong {
+  font-weight: 600;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  letter-spacing: inherit;
+  font-family: inherit;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  :root {
+    --max-padding: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --max-padding: 65px;
+  }
+}
